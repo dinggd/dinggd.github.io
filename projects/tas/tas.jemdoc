@@ -1,0 +1,28 @@
+# jemdoc: addcss{../project.css}
+# jemdoc: nofooter
+= Temporal Action Segmentation: An Analysis of Modern Technique
+
+~~~
+{}{img_left}{tas.png}{}{607px}{297px}{}
+~~~
+
+== Authors
+[http://www.guodongding.cn Guodong Ding] {{<sup>}}1{{</sup>}}, Fadime Sener {{<sup>}}2{{</sup>}} and [https://www.comp.nus.edu.sg/~ayao/ Angela Yao]{{<sup>}}1{{</sup>}} {{<br>}} {{<sup>}}1{{</sup>}}National University of Singapore, {{<sup>}}2{{</sup>}} Reality Labs, Meta
+== Abstract
+Temporal action segmentation from videos aims at the dense labeling of video frames with multiple action classes in minutes-long videos. Categorized as a long-range video understanding task, researchers have proposed an extended collection of methods and examined their performance using various benchmarks. Despite the rapid development of action segmentation techniques in recent years, there has been no systematic survey in such fields. To this end, in this survey, we analyse and summarize the main contributions and trends for this task. Specifically, we first examine the task definition, common benchmarks, types of supervision and popular evaluation measures. Furthermore, we systematically investigate two fundamental aspects of this topic, i.e., frame representation and temporal modeling, which are widely and extensively studied in the literature. We then comprehensively review existing temporal action segmentation works, each categorized by their form of supervision. Finally, we conclude our survey by highlighting and identifying several open topics for research. In addition, we supplement our survey with a curated list of temporal action segmentation resources, which is available at [https://github.com/atlas-eccv22/awesome-temporal-action-segmentation here].
+
+== Resources
+Files: \[[https://arxiv.org/pdf/2210.10352.pdf pdf]\]
+
+Resources: \[[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation GitHub]\]
+
+Citation:
+~~~
+@article{ding2022temporal,\n
+  title={Temporal Action Segmentation: An Analysis of Modern Technique},\n
+  author={Ding, Guodong and Sener Fadime and Yao, Angela},\n
+  journal={arXiv preprint arXiv:2210.10352},\n
+  year={2022}\n
+}\n
+~~~
+
