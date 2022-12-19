@@ -6,7 +6,7 @@ rm -rf .vscode/ .git/
 rm -f .gitignore Makefile CNAME mysite.conf jemdoc.py prepare_soc.sh
 find . -name "*.jemdoc" -type f | xargs rm -f
 find . -name "*.DS_Store" -type f | xargs rm -f
-scp -r ./ dinggd@sunfire:public_html/
+scp -r ./ dinggd@stf.comp.nus.edu.sg:public_html/
 rm -rf ~/soc
 
 #REMOTE
