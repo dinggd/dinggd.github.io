@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="../project.css" type="text/css" />
+<title>Every Mistake Counts in Assembly</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Every Mistake Counts in Assembly</h1>
+</div>
+<table class="imgtable"><tr><td>
+<img src="archi.jpg" alt="" width="811px" height="427px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<h2>Authors</h2>
+<p><a href="http://www.guodongding.cn" target=&ldquo;blank&rdquo;>Guodong Ding</a><sup>1</sup>, Fadime Sener<sup>2</sup> , Shugao Ma<sup>2</sup> and <a href="https://www.comp.nus.edu.sg/~ayao/" target=&ldquo;blank&rdquo;>Angela Yao</a><sup>1</sup> <br> <sup>1</sup>National University of Singapore, <sup>2</sup> Reality Labs, Meta
+</p>
+<h2>Abstract</h2>
+<p>One promising use case of AI assistants is to help with complex procedures like cooking, home repair, and assembly tasks. Can we teach the assistant to interject after the user makes a mistake? This paper targets the problem of identifying ordering mistakes in assembly procedures. We propose a system that can detect ordering mistakes by utilizing a learned knowledge base. Our framework constructs a knowledge base with spatial and temporal beliefs based on observed mistakes. Spatial beliefs depict the topological relationship of the assembling components, while temporal beliefs aggregate prerequisite actions as ordering constraints. With an episodic memory design, our algorithm can dynamically update and construct the belief sets as more actions are observed, all in an online fashion. We demonstrate experimentally that our inferred spatial and temporal beliefs are capable of identifying incorrect orderings in real-world action sequences. To construct the spatial beliefs, we collect a new set of coarse-level action annotations for Assembly101 based on the positioning of the toy parts. Finally, we demonstrate the superior performance of our belief inference algorithm in detecting ordering mistakes on the Assembly101 dataset.
+</p>
+<h2>Resources</h2>
+<p>Files: [<a href="https://arxiv.org/pdf/2307.16453.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+<p>Annotations: [<a href="https://github.com/assembly-101/assembly101-mistake-detection" target=&ldquo;blank&rdquo;>annots</a>]
+</p>
+<p>Citation:
+</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p>@article{ding2023every,<br />
+title={Every Mistake Counts in Assembly},<br />
+author={Ding, Guodong and Sener, Fadime and Ma, Shugao and Yao, Angela},<br />
+journal={arXiv preprint arXiv:2307.16453},<br />
+year={2023}<br />
+}<br />
+</p>
+</div></div>
+</div>
