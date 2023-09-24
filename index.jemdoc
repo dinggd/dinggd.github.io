@@ -19,7 +19,7 @@ My current research interest is mainly understanding human actions in long range
 
 == Updates
 - /\[Dec., 22\]/ One journal paper accpetd to TMM.
-- /\[Oct., 22\]/ We hosted an [https://atlas-eccv22.github.io/ ATLAS] tutorial in conjunction with [https://eccv2022.ecva.net ECCV22] on October 24!
+- /\[Oct., 22\]/ We hosted an [https://nus-cvml.github.io/atlas-eccv22/ ATLAS] tutorial in conjunction with [https://eccv2022.ecva.net ECCV22] on October 24!
 - /\[Jul., 22\]/ One conference paper accepted to ECCV2022.
 - /\[Jun., 21\]/ One journal paper accepted to SPL.
 - /\[Oct., 20\]/ I relocated to Singapore.
@@ -54,7 +54,7 @@ Thesis: /Content based Commodity Image Retrieval/
 == Publications
 === Preprints & working papers
 - *G. Ding*, F. Sener, S. Ma and A. Yao,  Every Mistake Counts in Assembly, /Arxiv paper/ 2023. \[[https://arxiv.org/pdf/2307.16453.pdf pdf]\]|\[[projects/misdet/misdet.html project page]\]|\[[https://github.com/assembly-101/assembly101-mistake-detection annots]\]
-- *G. Ding* , F. Sener and A. Yao, Temporal Action Segmentation: An Analysis of Modern Techniques, /Arxiv paper/ 2022. \[[https://arxiv.org/pdf/2210.10352.pdf pdf]\]|\[[projects/tas/tas.html project page]\]|\[[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation resources]\]
+- *G. Ding*, F. Sener and A. Yao, Temporal Action Segmentation: An Analysis of Modern Techniques, /Arxiv paper/ 2022. \[[https://arxiv.org/pdf/2210.10352.pdf pdf]\]|\[[projects/tas/tas.html project page]\]|\[[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation resources]\]
 - *G. Ding\**, S. Khan, Z. Tang, J. Zhang and F. Porikli, Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification, /Arxiv paper/ 2019.  \[[https://arxiv.org/pdf/1906.01308.pdf pdf]\]|\[[https://github.com/gddingcs/Dispersion-based-Clustering  code]\]|\[[projects/dbc/dbc.html project page]\]
 
 === Journal articles
@@ -72,8 +72,14 @@ Thesis: /Content based Commodity Image Retrieval/
 /(*\**: corresponding author)/\n
 
 == Reviewer
-TMM, TIP, TPAMI, CVPR, ECCV, AAAI, BMVC, ICME, TOSN, TII \n
-Co-organizer of [https://atlas-eccv22.github.io/ ATLAS] Tutorial on understanding actions in long untrimmed videos in conjunction with ECCV2022.
+=== Journal
+- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+- IEEE Transactions on Image Processing (TIP)
+- IEEE Transactions on Multimedia (TMM)
+TMM, TIP, TPAMI, TOSN, TII \n
+=== Conference:
+CVPR, ECCV, AAAI, BMVC, ICME\n
+Co-organizer of [https://nus-cvml.github.io/atlas-eccv22/ ATLAS] Tutorial on understanding actions in long untrimmed videos in conjunction with ECCV2022.
 
 == Collaborators
 Prof. [https://www.comp.nus.edu.sg/~ayao/ Angela Yao], School of Computing, National University of Singapore\n
