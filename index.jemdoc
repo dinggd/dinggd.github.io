@@ -18,6 +18,7 @@ dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
 My current research interest is mainly understanding human actions in long range video sequences, /i.e./, _Temporal Action Segmentation_. I am also interested in learning with weaker forms of data supervisions such as, _weakly-supervised_ and _semi-supervised_ learning.
 
 == Updates
+- /\[Oct., 23\]/ One survey paper accpeted to TPAMI.
 - /\[Dec., 22\]/ One journal paper accpetd to TMM.
 - /\[Oct., 22\]/ We hosted an [https://nus-cvml.github.io/atlas-eccv22/ ATLAS] tutorial in conjunction with [https://eccv2022.ecva.net ECCV22] on October 24!
 - /\[Jul., 22\]/ One conference paper accepted to ECCV2022.
@@ -54,10 +55,11 @@ Thesis: /Content based Commodity Image Retrieval/
 == Publications
 === Preprints & working papers
 - *G. Ding*, F. Sener, S. Ma and A. Yao,  Every Mistake Counts in Assembly, /Arxiv paper/ 2023. \[[https://arxiv.org/pdf/2307.16453.pdf pdf]\]|\[[projects/misdet/misdet.html project page]\]|\[[https://github.com/assembly-101/assembly101-mistake-detection annots]\]
-- *G. Ding*, F. Sener and A. Yao, Temporal Action Segmentation: An Analysis of Modern Techniques, /Arxiv paper/ 2022. \[[https://arxiv.org/pdf/2210.10352.pdf pdf]\]|\[[projects/tas/tas.html project page]\]|\[[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation resources]\]
+
 - *G. Ding\**, S. Khan, Z. Tang, J. Zhang and F. Porikli, Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification, /Arxiv paper/ 2019.  \[[https://arxiv.org/pdf/1906.01308.pdf pdf]\]|\[[https://github.com/gddingcs/Dispersion-based-Clustering  code]\]|\[[projects/dbc/dbc.html project page]\]
 
 === Journal articles
+- *G. Ding*, F. Sener and A. Yao, Temporal Action Segmentation: An Analysis of Modern Techniques, /IEEE Transactions on Pattern Analysis and Machine Intelligence/ 2023. \[[https://arxiv.org/pdf/2210.10352.pdf pdf]\]|\[[projects/tas/tas.html project page]\]|\[[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation resources]\]
 - *G. Ding* and A. Yao, Temporal Action Segmentation with High-level Complex Activity Labels, /IEEE Transcations on Multimedia/ 2022.  \[[https://arxiv.org/pdf/2108.06706.pdf pdf]\]|\[[projects/cad/cad.html project page]\]
 - Q. Yin, G. Wang, *G. Ding*, Q. Li, S. Gong and Z. Tang, Rapid Person Re-Identification via Sub-space Consistency Regularization, /Neural Processing Letters/ 2022. \[[https://arxiv.org/pdf/2207.05933.pdf pdf]\]|\[[projects/scr/scr.html project page]\]
 - Q. Yin, G. Wang, *G. Ding*, S. Gong and Z. Tang, Multi-View Label Prediction for Unsupervsied Person Re-identification, /IEEE Singal Processing Letters/ 2021.  \[[http://www.eecs.qmul.ac.uk/~sgg/papers/YinEtAl_SPL2021.pdf pdf]\]|\[[projects/mvreid/mvreid.html project page]\]
