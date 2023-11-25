@@ -8,13 +8,13 @@
 
 == Guodong Ding (Ph.D) 丁国栋 \[[./files/GUODONG_DING_CV.pdf CV]\]\n
 dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
-/Research Fellow, School of Computing (SoC)/, \n
+/Senior Research Fellow, School of Computing (SoC)/, \n
 /National University of Singapore (NUS)/,\n
 /AS6-04-11, 11 Computing Dr, Singapore, 117416/\n
 
 ~~~
 
-== Research area
+== Research Interest
 My current research interest is mainly understanding human actions in long range video sequences, /i.e./, _Temporal Action Segmentation_. I am also interested in learning with weaker forms of data supervisions such as, _weakly-supervised_ and _semi-supervised_ learning.
 
 == Updates
@@ -74,13 +74,10 @@ Thesis: /Content based Commodity Image Retrieval/
 /(*\**: corresponding author)/\n
 
 == Reviewer
-=== Journal
-- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
-- IEEE Transactions on Image Processing (TIP)
-- IEEE Transactions on Multimedia (TMM)
-TMM, TIP, TPAMI, TOSN, TII \n
+=== Journal:
+TPAMI, TMM, TIP, TOSN, TII \n
 === Conference:
-CVPR, ECCV, AAAI, BMVC, ICME\n
+CVPR, ECCV, ICCV, AAAI, BMVC, ICME\n
 Co-organizer of [https://nus-cvml.github.io/atlas-eccv22/ ATLAS] Tutorial on understanding actions in long untrimmed videos in conjunction with ECCV2022.
 
 == Collaborators

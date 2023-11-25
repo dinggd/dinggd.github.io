@@ -1,6 +1,6 @@
 # jemdoc: addcss{../project.css}
 # jemdoc: nofooter
-= Temporal Action Segmentation: An Analysis of Modern Technique
+= Temporal Action Segmentation: An Analysis of Modern Techniques
 
 ~~~
 {}{img_left}{tas.png}{}{607px}{297px}{}
@@ -19,9 +19,9 @@ Resources: \[[https://github.com/nus-cvml/awesome-temporal-action-segmentation G
 Citation:
 ~~~
 @article{ding2022temporal,\n
-  title={Temporal Action Segmentation: An Analysis of Modern Technique},\n
+  title={Temporal Action Segmentation: An Analysis of Modern Techniques},\n
   author={Ding, Guodong and Sener Fadime and Yao, Angela},\n
-  journal={arXiv preprint arXiv:2210.10352},\n
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},\n
   year={2022}\n
 }\n
 ~~~
