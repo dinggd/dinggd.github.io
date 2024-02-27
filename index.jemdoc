@@ -18,6 +18,7 @@ dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
 My current research interest is mainly understanding human actions in long range video sequences, /i.e./, _Temporal Action Segmentation_. I am also interested in learning with weaker forms of data supervisions such as, _weakly-supervised_ and _semi-supervised_ learning.
 
 == Updates
+- /\[Feb., 24\]/ One conference paper accepted to CVPR2024.
 - /\[Oct., 23\]/ One survey paper accpeted to TPAMI.
 - /\[Dec., 22\]/ One journal paper accpetd to TMM.
 - /\[Oct., 22\]/ We hosted an [https://nus-cvml.github.io/atlas-eccv22/ ATLAS] tutorial in conjunction with [https://eccv2022.ecva.net ECCV22] on October 24!
@@ -31,7 +32,8 @@ My current research interest is mainly understanding human actions in long range
 
 
 == Employment
-- *Research Fellow* /(Oct., 20 - Present)/, in School of Computing (SoC), National University of Singapore, Singapore. 
+- *Senior Research Fellow* /(Oct., 23 - Present)/, in School of Computing (SoC), National University of Singapore, Singapore. 
+- *Research Fellow* /(Oct., 20 - Oct., 23)/, in School of Computing (SoC), National University of Singapore, Singapore. 
 - *Engineering Intern* /(June, 19 - Sept., 19)/, in China QCT MM R&D, Qualcomm Shanghai, China. 
 
 == Research Experiences
@@ -55,7 +57,6 @@ Thesis: /Content based Commodity Image Retrieval/
 == Publications
 === Preprints & working papers
 - *G. Ding*, F. Sener, S. Ma and A. Yao,  Every Mistake Counts in Assembly, /Arxiv paper/ 2023. \[[https://arxiv.org/pdf/2307.16453.pdf pdf]\]|\[[projects/misdet/misdet.html project page]\]|\[[https://github.com/assembly-101/assembly101-mistake-detection annots]\]
-
 - *G. Ding\**, S. Khan, Z. Tang, J. Zhang and F. Porikli, Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification, /Arxiv paper/ 2019.  \[[https://arxiv.org/pdf/1906.01308.pdf pdf]\]|\[[https://github.com/gddingcs/Dispersion-based-Clustering  code]\]|\[[projects/dbc/dbc.html project page]\]
 
 === Journal articles
@@ -67,6 +68,7 @@ Thesis: /Content based Commodity Image Retrieval/
 - *G. Ding\**, S. Khan, Z. Tang, and F. Porikli, Feature Mask Network for Person Re-identification, /Pattern Recognition Letters/ 2019. \[[papers/ding2019feature.pdf pdf]\]|\[[projects/fmn/fmn.html project page]\]
 
 === Conference papers
+- *G. Ding*, H. Golong and A. Yao, Coherent Temporal Synthesis for Incremental Action Segmentation, /Computer Vision and Pattern Recognition/ 2024.  \[[projects/itas/itas.html project page]\]
 - *G. Ding* and A. Yao, Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation, /European Conference on Computer Vision/ 2022.  \[[papers/ding2022leveraging.pdf pdf]\]|\[[projects/semi/semi.html project page]\]
 - *G. Ding\**, S. Khan, and Z. Tang, Dispersion based Clustering for Unsupervised Person Re-identification, /British Machine Vision Conference/ 2019. \[[papers/ding2019dispersion.pdf pdf]\]|\[[papers/ding2019dispersion_poster.pdf poster]\]|\[[projects/dbc/dbc.html project page]\]
 - *G. Ding\**, S. Zhang, S. Khan, and Z. Tang, Center based Pseudo-labeling for Semi-supervised Person Re-identification, /International Conference of Multimedia and Expo Workshops/ 2018. \[[papers/ding2018center.pdf pdf]\]|\[[papers/ding2018center_slides.pdf slides]\]
