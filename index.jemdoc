@@ -70,7 +70,6 @@ Thesis: /Content based Commodity Image Retrieval/
 === Conference papers
 - *G. Ding*, _H. Golong_ and A. Yao, Coherent Temporal Synthesis for Incremental Action Segmentation, /Computer Vision and Pattern Recognition/ 2024. \[[papers/ding2024coherent.pdf pdf]\]|\[[projects/itas/itas.html project page]\]
 - *G. Ding* and A. Yao, Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation, /European Conference on Computer Vision/ 2022.  \[[papers/ding2022leveraging.pdf pdf]\]|\[[papers/ding2022leveraging_poster.pdf poster]\]|\[[projects/semi/semi.html project page]\]
-- *G. Ding\**, S. Khan, and Z. Tang, Dispersion based Clustering for Unsupervised Person Re-identification, /British Machine Vision Conference/ 2019. \[[papers/ding2019dispersion.pdf pdf]\]|\[[papers/ding2019dispersion_poster.pdf poster]\]|\[[projects/dbc/dbc.html project page]\]
 - *G. Ding\**, S. Zhang, S. Khan, and Z. Tang, Center based Pseudo-labeling for Semi-supervised Person Re-identification, /International Conference of Multimedia and Expo Workshops/ 2018. \[[papers/ding2018center.pdf pdf]\]|\[[papers/ding2018center_slides.pdf slides]\]
 
 (*\**: corresponding author, /_underlined_/: supervised student)\n
@@ -91,10 +90,3 @@ Prof. [https://sites.google.com/site/shanshanzhangshomepage/ Shanshan Zhang], Na
 
 == 
 #includeraw{logo.html}
-
-
-
-
-
-
-
