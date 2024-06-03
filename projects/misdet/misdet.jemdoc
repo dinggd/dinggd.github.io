@@ -20,7 +20,7 @@ Annotations: \[[https://github.com/assembly-101/assembly101-mistake-detection an
 Citation:
 ~~~
 @article{ding2023every,\n
-  title={Every Mistake Counts in Assembly},\n
+  title={Ordering Mistake Detection in Assembly Tasks},\n
   author={Ding, Guodong and Sener, Fadime and Ma, Shugao and Yao, Angela},\n
   journal={arXiv preprint arXiv:2307.16453},\n
   year={2023}\n
