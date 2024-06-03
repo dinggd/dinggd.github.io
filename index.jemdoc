@@ -10,10 +10,9 @@ dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
 /Senior Research Fellow, School of Computing (SoC)/, \n
 /National University of Singapore (NUS)/,\n
 /AS6-04-11, 11 Computing Dr, Singapore, 117416/\n
-{{
-<a href="https://scholar.google.com/citations?user=PqlGbTYAAAAJ&hl=en">
+{{<a href="https://scholar.google.com/citations?user=PqlGbTYAAAAJ&hl=en">
 <i class="fa fa-fw fa-graduation-cap"></i> Google Scholar</a>
-}}
+<a href="https://github.com/nus-cvml/awesome-temporal-action-segmentation"><i class="fa fa-fw fa-paper-plane"></i> Awesome-TAS</a>}}
 ~~~
 
 
@@ -56,7 +55,7 @@ My current research interest is mainly understanding human actions in long range
 == Publications
 \[[https://scholar.google.com/citations?hl=en&user=PqlGbTYAAAAJ Google Scholar]\]  \n
 === Preprints & working papers
-- *G. Ding\**, S. Khan, Z. Tang, J. Zhang and F. Porikli, Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification, /Arxiv paper/ 2019.  \[[https://arxiv.org/pdf/1906.01308.pdf pdf]\]|\[[https://github.com/gddingcs/Dispersion-based-Clustering  code]\]|\[[projects/dbc/dbc.html project page]\]
+- *G. Ding\**, S. Khan, Z. Tang, J. Zhang and F. Porikli, Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification, /Arxiv paper/ 2019.  \[[https://arxiv.org/pdf/1906.01308.pdf pdf]\]|\[[https://github.com/gddingcs/Dispersion-based-Clustering code]\]|\[[projects/dbc/dbc.html project page]\]
 
 === Journal articles
 - *G. Ding*, F. Sener and A. Yao, Temporal Action Segmentation: An Analysis of Modern Techniques, /IEEE Transactions on Pattern Analysis and Machine Intelligence/ 2023. \[[https://arxiv.org/pdf/2210.10352.pdf pdf]\]|\[[projects/tas/tas.html project page]\]|\[[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation resources]\]
@@ -70,6 +69,7 @@ My current research interest is mainly understanding human actions in long range
 - *G. Ding*, F. Sener, S. Ma and A. Yao,  Ordering Mistake Detection in Assembly Tasks, /CVPR Workshop/ 2024. \[[https://arxiv.org/pdf/2307.16453.pdf pdf]\]|\[[projects/misdet/misdet.html project page]\]|\[[https://github.com/assembly-101/assembly101-mistake-detection annots]\] 
 - *G. Ding*, _H. Golong_ and A. Yao, Coherent Temporal Synthesis for Incremental Action Segmentation, /Computer Vision and Pattern Recognition/ 2024. \[[papers/ding2024coherent.pdf pdf]\]|\[[projects/itas/itas.html project page]\]|\[[https://www.youtube.com/watch?v=04mXlynNDqs video]\]|\[[papers/ding2024coherent_poster.pdf poster]\]|\[[papers/ding2024coherent_slides.pdf slides]\]
 - *G. Ding* and A. Yao, Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation, /European Conference on Computer Vision/ 2022.  \[[papers/ding2022leveraging.pdf pdf]\]|\[[papers/ding2022leveraging_poster.pdf poster]\]|\[[projects/semi/semi.html project page]\]
+- *G. Ding*, S. Khan, and Z. Tang, Dispersion-based Clustering for Unsupervised Person Re-identiﬁcation, /British Machine Vision Conference/, 2019. \[[papers/ding2019dispersion.pdf pdf]]|\[[projects/dbc/dbc.html project page]\]
 - *G. Ding\**, S. Zhang, S. Khan, and Z. Tang, Center based Pseudo-labeling for Semi-supervised Person Re-identification, /International Conference of Multimedia and Expo Workshops/ 2018. \[[papers/ding2018center.pdf pdf]\]|\[[papers/ding2018center_slides.pdf slides]\]
 
 (*\**: corresponding author, /_underlined_/: supervised student)\n
@@ -78,8 +78,8 @@ My current research interest is mainly understanding human actions in long range
 === Journal:
 TPAMI, TMM, TIP, TOSN, TII \n
 === Conference:
-CVPR, ECCV, ICCV, AAAI, BMVC, ICME\n
-Co-organizer of [https://nus-cvml.github.io/atlas-eccv22/ ATLAS] Tutorial on understanding actions in long untrimmed videos in conjunction with ECCV2022.
+CVPR, ECCV, ICCV, NeurIPS, AAAI, BMVC, ICME\n
+Organizer of [https://nus-cvml.github.io/atlas-eccv22/ ATLAS] Tutorial on understanding actions in long untrimmed videos in conjunction with ECCV2022.
 
 == Collaborators
 Prof. [https://www.comp.nus.edu.sg/~ayao/ Angela Yao], School of Computing, National University of Singapore\n
