@@ -1,5 +1,6 @@
 # jemdoc: addcss{../project.css}
 # jemdoc: nofooter
+# jemdoc: menu
 = Feature Mask Network for Person Re-identification
 
 ~~~
