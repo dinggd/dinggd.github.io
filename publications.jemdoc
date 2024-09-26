@@ -1,7 +1,9 @@
 # jemdoc: addcss{jemdoc.css} 
 # jemdoc: nofooter
-## jemdoc: menu{MENU}{publications.html}
+# jemdoc: menu{MENU}{publications.html}
+
 = Publications
+
 
 {{<a href="https://scholar.google.com/citations?user=PqlGbTYAAAAJ&hl=en">
 <i class="fa fa-fw fa-graduation-cap"></i> Google Scholar</a>}}\n
