@@ -1,0 +1,29 @@
+# jemdoc: addcss{../project.css}
+# jemdoc: nofooter
+= OnlineTAS: An Online Baseline for Temporal Action Segmentation
+
+~~~
+{}{img_left}{archi.png}{}{720px}{310px}{}
+~~~
+
+== Authors
+Qing Zhong{{<sup>}}1,2{{</sup>}}, [http://www.guodongding.cn Guodong Ding]{{<sup>}}2{{</sup>}}, and [https://www.comp.nus.edu.sg/~ayao/ Angela Yao]{{<sup>}}2{{</sup>}} {{<br>}} {{<sup>}}1{{</sup>}}University of Adelaide, {{<sup>}}2{{</sup>}} National University of Singapore
+
+== Abstract
+Temporal context plays a significant role in temporal action segmentation.  
+In an offline setting, the context is typically captured by the segmentation network after observing the entire sequence. However, capturing and using such context information in an online setting remains an under-explored problem. 
+This work presents the first online framework for temporal action segmentation. At the core of the framework is an adaptive memory designed to accommodate dynamic changes in context over time, alongside a feature augmentation module that enhances the frames with the memory. 
+In addition, we propose a post-processing approach to mitigate the severe over-segmentation in the online setting. On three common segmentation benchmarks, our approach achieves state-of-the-art performance. 
+
+== Resources
+Files: \[[../../papers/zhong2024online.pdf pdf]\]
+
+Citation:
+~~~
+@inproceedings{zhong2024online,\nbsp
+  title     = {OnlineTAS: An Online Baseline for Temporal Action Segmentation},\n
+  author    = {Zhong, Qing and Ding, Guodong and Yao, Angela},\n
+  booktitle = {Advances in Neural Information Processing Systems},\n
+  year      = {2024}\n
+}
+~~~

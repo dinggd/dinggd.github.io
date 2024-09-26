@@ -22,10 +22,10 @@ Files: \[[../../papers/ding2024coherent.pdf pdf]\]
 
 Citation:
 ~~~
-@article{ding2024coherent,\n
+@inpr{ding2024coherent,\n
   title={Coherent Temporal Synthesis for Incremental Action Segmentation},\n
   author={Ding, Guodong and Golong, Hans and Yao, Angela},\n
-  journal={Computer Vision and Pattern Recognition},\n
+  booktitle={Computer Vision and Pattern Recognition},\n
   year={2024}\n
 }\n
 ~~~

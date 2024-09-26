@@ -5,19 +5,49 @@
 = Projects
 
 
-== Temporal Action Segmentation
+== Action Understanding 
 === 2024
 ~~~
+{}{img_left}{./projects/online/archi.png}{}{280px}{}{}
+===  [projects/online/online.html OnlineTAS: An Online Baseline for Temporal Action Segmentation]
+We present the first online framework for temporal action segmentation. At the core of the framework is an adaptive memory designed to accommodate dynamic changes in context over time, alongside a feature augmentation module that enhances the frames with the memory. Our approach achieves state-of-the-art performance on three common segmentation benchmarks.
+~~~
+
+~~~
 {}{img_left}{./projects/itas/itas.jpg}{}{280px}{}{}
-===  Coherent Temporal Synthesis for Incremental Action Segmentation
-Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.
+===  [projects/itas/itas.html Coherent Temporal Synthesis for Incremental Action Segmentation]
+We propose a Temporally Coherent Action (TCA) model, which represents actions using a generative model instead of storing individual frames. The integration of a conditioning variable captures temporal coherence, allowing our model to understand the evolution of action features over time. In a 10-task incremental setup on the Breakfast dataset, our approach achieves significant increases in accuracy for up to 22% compared to the baselines.
+~~~
+
+~~~
+{}{img_left}{./projects/misdet/archi.jpg}{}{280px}{}{}
+===  [projects/misdet/misdet.html Ordering Mistake Detection in Assembly Tasks]
+We introduce a novel task of detecting ordering mistakes in assembly tasks. We propose a two-stage framework that first segments the video into action segments and then detects ordering mistakes by comparing the predicted sequence with the ground truth. We also contribute a new dataset, Assembly101-Mistake, containing 785 videos with ordering mistakes across 7 assembly tasks.
 ~~~
 
 === 2023
+~~~
+{}{img_left}{./projects/tas/tas.png}{}{280px}{}{}
+===  [projects/tas/tas.html Temporal Action Segmentation: An Analysis of Modern Techniques]
+We present a comprehensive survey and analysis of modern temporal action segmentation techniques. Our work covers the evolution of approaches, from early frame-wise methods to recent transformer-based models. We also provide an in-depth discussion on datasets, evaluation metrics, and future research directions in this field.
+~~~
+
+
 
 === 2022
+~~~
+{}{img_left}{./projects/cad/archi.png}{}{280px}{}{}
+===  [projects/cad/cad.html Temporal Action Segmentation with High-level Complex Activity Labels]
+We propose a novel approach for temporal action segmentation that incorporates high-level complex activity labels. Our method leverages the hierarchical structure of activities to improve segmentation accuracy. We demonstrate significant performance improvements on benchmark datasets, particularly for long and complex action sequences.
+~~~
 
+~~~
+{}{img_left}{./projects/semi/teaser.png}{}{280px}{}{}
+===  [projects/semi/semi.html Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation]
+We propose a semi-supervised approach for temporal action segmentation that leverages action affinity and continuity. Our method uses a small amount of labeled data to guide the learning process on a larger set of unlabeled videos. By exploiting the inherent temporal structure and similarities between actions, we achieve competitive performance with limited supervision on standard benchmarks.
+~~~
 === 2021
+
 
 
 
@@ -30,13 +60,38 @@ Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac fauc
 
 === 2024
 
+
 === 2023
 
+~~~
+{}{img_left}{./projects/scr/archi.png}{}{280px}{}{}
+===  [projects/scr/scr.html Rapid Person Re-Identification via Sub-space Consistency Regularization]
+We propose a novel method for rapid person re-identification using sub-space consistency regularization. Our approach enforces consistency between different sub-spaces of the feature representation, leading to more robust and discriminative features. This method achieves competitive performance while significantly reducing computational costs.
+~~~
 
-=== 2022
+=== 2021 and before
+~~~
+{}{img_left}{./projects/mvreid/archi.jpg}{}{280px}{}{}
+===  [projects/mvreid/mvreid.html Multi-View Label Prediction for Unsupervised Person Re-identification]
+We introduce a multi-view label prediction approach for unsupervised person re-identification. By leveraging multiple views of unlabeled person images, our method generates more reliable pseudo-labels, enabling effective feature learning without manual annotations. Experiments demonstrate substantial improvements over existing unsupervised re-identification methods.
+~~~
 
-=== 2021
 
+~~~
+{}{img_left}{./projects/dbc/archi.png}{}{280px}{}{}
+===  [projects/dbc/dbc.html Dispersion-based Clustering for Unsupervised Person Re-identification]
+We propose a novel unsupervised person re-identification method using dispersion-based clustering. Our approach leverages the inherent dispersion of unlabeled person images to create pseudo-labels, enabling effective feature learning without manual annotations. Experiments on multiple datasets demonstrate significant performance improvements over existing unsupervised methods.
+~~~
 
-=== 2020 and before
+~~~
+{}{img_left}{./projects/fapl/archi.png}{}{280px}{}{}
+===  [projects/fapl/fapl.html Feature Affinity based Pseudo Labeling for Semi-supervised Person Re-identification]
+We introduce a semi-supervised approach for person re-identification using feature affinity-based pseudo labeling. Our method effectively utilizes both labeled and unlabeled data by exploiting feature similarities to generate reliable pseudo-labels. This approach significantly improves re-identification accuracy with limited labeled data on standard benchmarks.
+~~~
+
+~~~
+{}{img_left}{./projects/fmn/archi.png}{}{280px}{}{}
+===  [projects/fmn/fmn.html Feature Mask Network for Person Re-identification]
+We present a Feature Mask Network (FMN) for person re-identification. Our approach learns to mask irrelevant features while highlighting discriminative ones, leading to more robust person representations. Extensive experiments show that FMN achieves state-of-the-art performance on multiple person re-identification datasets.
+~~~
 

@@ -1,14 +1,19 @@
 # jemdoc: addcss{jemdoc.css} 
 # jemdoc: nofooter
-# jemdoc: menu{MENU}{publications.html}
+## jemdoc: menu{MENU}{publications.html}
 = Publications
 
 {{<a href="https://scholar.google.com/citations?user=PqlGbTYAAAAJ&hl=en">
 <i class="fa fa-fw fa-graduation-cap"></i> Google Scholar</a>}}\n
 (*\**: corresponding author, /_underlined_/: supervised student)
 
+== 2024
+- _Qing Zhong_, *G. Ding* and Angela Yao, \n "OnlineTAS: An Online Baseline for Temporal Action Segmentation," \n 
+/Neural Information Processing Systems/, *(NeurIPS)*, Vancouver, Canada, 2024. \n 
+[projects/online/online.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] |  
+[https://arxiv.org/pdf/2406.03030.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] | 
+[https://github.com/qingzhong2024/OnlineTAS {{<i class="fa fa-file-code-o" aria-hidden="true"> code</i>}}]
 
-== Conference papers
 
 - *G. Ding*, F. Sener, S. Ma and A. Yao,  \n "Ordering Mistake Detection in Assembly Tasks," \n 
 /Computer Vision and Pattern Recognition Workshop/, *(CVPRW)*, Seattle, US, 2024. \n 
@@ -24,6 +29,31 @@
 [papers/ding2024coherent_poster.pdf {{<i class="fa fa-file-photo-o" aria-hidden="true"> poster</i>}}] | 
 [papers/ding2024coherent_slides.pdf {{<i class="fa fa fa-file-powerpoint-o" aria-hidden="true"> slides</i>}}]
 
+== 2023
+- *G. Ding*, F. Sener and A. Yao, \n 
+"Temporal Action Segmentation: An Analysis of Modern Techniques," \n 
+/IEEE Transactions on Pattern Analysis and Machine Intelligence/, *(TPAMI)*, IEEE, 2023.\n 
+[projects/tas/tas.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
+[https://arxiv.org/pdf/2210.10352.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] | 
+[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation {{<i class="fa fa-file-code-o" aria-hidden="true"> code</i>}}]
+
+
+== 2022
+
+- *G. Ding* and A. Yao,  \n 
+"Temporal Action Segmentation with High-level Complex Activity Labels,"  \n
+/IEEE Transcations on Multimedia/, *(TMM)*, IEEE, 2022. \n 
+[projects/cad/cad.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
+[https://arxiv.org/pdf/2108.06706.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] 
+
+
+#- Q. Yin, G. Wang, *G. Ding*, Q. Li, S. Gong and Z. Tang,  \n 
+#"Rapid Person Re-Identification via Sub-space Consistency Regularization," \n 
+#/Neural Processing Letters/, *(NPL)*, Springer, 2022.\n 
+#[projects/scr/scr.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
+#[https://arxiv.org/pdf/2207.05933.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}]
+
+
 - *G. Ding* and A. Yao,  \n "Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation,"  \n 
 /European Conference on Computer Vision/, *(ECCV)*, Tel Aviv, Isreal, 2022. \n 
 [projects/semi/semi.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
@@ -32,6 +62,26 @@
 [papers/ding2022leveraging_poster.pdf {{<i class="fa fa-file-photo-o" aria-hidden="true"> poster</i>}}] | 
 [papers/ding2022leveraging_slides.pdf {{<i class="fa fa fa-file-powerpoint-o" aria-hidden="true"> slides</i>}}]
 
+
+== 2021 and before
+
+#- Q. Yin, G. Wang, *G. Ding*, S. Gong and Z. Tang,  \n 
+#"Multi-View Label Prediction for Unsupervsied Person Re-identification,"  \n 
+#/IEEE Singal Processing Letters/, *(SPL)*, IEEE, 2021. \n 
+#[projects/mvreid/mvreid.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
+#[http://www.eecs.qmul.ac.uk/~sgg/papers/YinEtAl_SPL2021.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}]
+
+- *G. Ding\**, S. Zhang, S. Khan, Z. Tang, J. Zhang and F. Porikli, \n 
+"Feature Affinity based Pseudo Labeling for Semi-supervised Person Re-identification," \n 
+/IEEE Transcations on Multimedia/, *(TMM)*, IEEE, 2019. \n 
+[projects/fapl/fapl.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
+[papers/ding2019a.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}]
+
+- *G. Ding\**, S. Khan, Z. Tang, and F. Porikli, \n 
+"Feature Mask Network for Person Re-identification,"  \n 
+/Pattern Recognition Letters/, *(PRL)*, Springer, 2019.\n
+[projects/fmn/fmn.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
+[papers/ding2019feature.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] 
 
 - *G. Ding*, S. Khan, and Z. Tang, \n "Dispersion-based Clustering for Unsupervised Person Re-identiﬁcation,"  
 \n /British Machine Vision Conference/, *(BMVC)*, Cardiff, UK, 2019. \n 
@@ -45,51 +95,7 @@
 [papers/ding2018center.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] | 
 [papers/ding2018center_slides.pdf {{<i class="fa fa-file-powerpoint-o" aria-hidden="true"> slides</i>}}]
 
-== Journal articles
-
-- *G. Ding*, F. Sener and A. Yao, \n 
-"Temporal Action Segmentation: An Analysis of Modern Techniques," \n 
-/IEEE Transactions on Pattern Analysis and Machine Intelligence/, *(TPAMI)*, IEEE, 2023.\n 
-[projects/tas/tas.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
-[https://arxiv.org/pdf/2210.10352.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] | 
-[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation {{<i class="fa fa-file-code-o" aria-hidden="true"> code</i>}}]
-
-- *G. Ding* and A. Yao,  \n 
-"Temporal Action Segmentation with High-level Complex Activity Labels,"  \n
-/IEEE Transcations on Multimedia/, *(TMM)*, IEEE, 2022. \n 
-[projects/cad/cad.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
-[https://arxiv.org/pdf/2108.06706.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] 
-
-
-- Q. Yin, G. Wang, *G. Ding*, Q. Li, S. Gong and Z. Tang,  \n 
-"Rapid Person Re-Identification via Sub-space Consistency Regularization," \n 
-/Neural Processing Letters/, *(NPL)*, Springer, 2022.\n 
-[projects/scr/scr.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
-[https://arxiv.org/pdf/2207.05933.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}]
-
-
-- Q. Yin, G. Wang, *G. Ding*, S. Gong and Z. Tang,  \n 
-"Multi-View Label Prediction for Unsupervsied Person Re-identification,"  \n 
-/IEEE Singal Processing Letters/, *(SPL)*, IEEE, 2021. \n 
-[projects/mvreid/mvreid.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
-[http://www.eecs.qmul.ac.uk/~sgg/papers/YinEtAl_SPL2021.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}]
-
-
-- *G. Ding\**, S. Zhang, S. Khan, Z. Tang, J. Zhang and F. Porikli, \n 
-"Feature Affinity based Pseudo Labeling for Semi-supervised Person Re-identification," \n 
-/IEEE Transcations on Multimedia/, *(TMM)*, IEEE, 2019. \n 
-[projects/fapl/fapl.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
-[papers/ding2019a.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}]
-
-
-- *G. Ding\**, S. Khan, Z. Tang, and F. Porikli, \n 
-"Feature Mask Network for Person Re-identification,"  \n 
-/Pattern Recognition Letters/, *(PRL)*, Springer, 2019.\n
-[projects/fmn/fmn.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
-[papers/ding2019feature.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] 
-
-
-== Preprints & working papers
+== Arxived
 - *G. Ding\**, S. Khan, Z. Tang, J. Zhang and F. Porikli, \n 
 "Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification," \n 
 /Arxiv paper/ 2019. \n  

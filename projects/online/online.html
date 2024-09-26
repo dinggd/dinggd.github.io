@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../project.css" type="text/css" />
+<title>OnlineTAS: An Online Baseline for Temporal Action Segmentation</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>OnlineTAS: An Online Baseline for Temporal Action Segmentation</h1>
+</div>
+<table class="imgtable"><tr><td>
+<img src="archi.png" alt="" width="720px" height="310px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<h2>Authors</h2>
+<p>Qing Zhong<sup>1,2</sup>, <a href="http://www.guodongding.cn" target=&ldquo;blank&rdquo;>Guodong Ding</a><sup>2</sup>, and <a href="https://www.comp.nus.edu.sg/~ayao/" target=&ldquo;blank&rdquo;>Angela Yao</a><sup>2</sup> <br> <sup>1</sup>University of Adelaide, <sup>2</sup> National University of Singapore
+</p>
+<h2>Abstract</h2>
+<p>Temporal context plays a significant role in temporal action segmentation.  
+In an offline setting, the context is typically captured by the segmentation network after observing the entire sequence. However, capturing and using such context information in an online setting remains an under-explored problem. 
+This work presents the first online framework for temporal action segmentation. At the core of the framework is an adaptive memory designed to accommodate dynamic changes in context over time, alongside a feature augmentation module that enhances the frames with the memory. 
+In addition, we propose a post-processing approach to mitigate the severe over-segmentation in the online setting. On three common segmentation benchmarks, our approach achieves state-of-the-art performance. 
+</p>
+<h2>Resources</h2>
+<p>Files: [<a href="../../papers/zhong2024online.pdf" target=&ldquo;blank&rdquo;>pdf</a>]
+</p>
+<p>Citation:
+</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p>@inproceedings{zhong2024online,<br />bsp
+title     = {OnlineTAS: An Online Baseline for Temporal Action Segmentation},<br />
+author    = {Zhong, Qing and Ding, Guodong and Yao, Angela},<br />
+booktitle = {Advances in Neural Information Processing Systems},<br />
+year      = {2024}<br />
+}
+</p>
+</div></div>
+</div>

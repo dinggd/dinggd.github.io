@@ -3,10 +3,11 @@
 # jemdoc: menu{MENU}{index.html}
 = Guodong Ding's Homepage
 
+
 ~~~
 {}{img_left}{avatar.jpeg}{profolio}{150px}{150px}{}
 
-== Guodong Ding (Ph.D) 丁国栋 [./files/GUODONG_DING_CV.pdf CV\]]\n
+== Guodong Ding (Ph.D) 丁国栋 \[[./files/GUODONG_DING_CV.pdf CV]\]\n
 dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
 /Senior Research Fellow, School of Computing (SoC)/, \n
 /National University of Singapore (NUS)/,\n
@@ -16,13 +17,13 @@ dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
 <a href="https://github.com/nus-cvml/awesome-temporal-action-segmentation"><i class="fa fa-fw fa-paper-plane"></i> Awesome-TAS</a>}}
 ~~~
 
-
-
 == Research Interest
 My current research interest is mainly understanding human actions in long range video sequences, /i.e./, _Temporal Action Segmentation_. I am also interested in learning with weaker forms of data supervisions such as, _weakly-supervised_ and _semi-supervised_ learning.
 
 == Updates
-- /\[Apr., 25\]/ One extended abstract accepted to CVPR2024 Workshop LPVL2024.
+- /\[Sep., 24\]/ One conference paper accepted to NeurIPS 2024, congrats to Qing!
+- /\[Jun., 24\]/ I will be serving as Senior Program Committee for AAAI 2024.
+- /\[Apr., 24\]/ One extended abstract accepted to CVPR2024 Workshop LPVL2024.
 - /\[Feb., 24\]/ One conference paper accepted to CVPR2024.
 - /\[Oct., 23\]/ One survey paper accpeted to TPAMI.
 - /\[Dec., 22\]/ One journal paper accpetd to TMM.
@@ -50,13 +51,20 @@ My current research interest is mainly understanding human actions in long range
 #Thesis: /Content based Commodity Image Retrieval/
 
 == Adivsed Students
-- Hans Golong (2023-2024, Master, NUS)
+- Alberto Mate (2024, Master, Universitat Politècnica de Catalunya)
 - Qing Zhong (2024, PhD, University of Adelaide)
+- Hans Golong (2023-2024, Master, National University of Singapore)
+
 
 == Publications
-[https://scholar.google.com/citations?hl=en&user=PqlGbTYAAAAJ \[Google Scholar\]]  \n
-=== Preprints & working papers
-- *G. Ding\**, S. Khan, Z. Tang, J. Zhang and F. Porikli, Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification, /Arxiv paper/ 2019.  [https://arxiv.org/pdf/1906.01308.pdf \[pdf\]]|[https://github.com/gddingcs/Dispersion-based-Clustering \[code\]]|[projects/dbc/dbc.html \[project page\]]
+[https://scholar.google.com/citations?hl=en&user=PqlGbTYAAAAJ \[Google Scholar\]] (*\**: corresponding author, /_underlined_/: supervised student)\n
+=== Conference papers
+- _Q. Zhong_, *G. Ding*, and A. Yao, "OnlineTAS: An Online Baseline for Temporal Action Segmentation," /NeurIPS/ 2024. [https://arxiv.org/pdf/2307.16453.pdf \[pdf\]]|[projects/misdet/misdet.html \[project page\]]|[https://github.com/assembly-101/assembly101-mistake-detection \[annots\]] 
+- *G. Ding*, F. Sener, S. Ma and A. Yao,  "Ordering Mistake Detection in Assembly Tasks," /CVPR Workshop/ 2024. [https://arxiv.org/pdf/2307.16453.pdf \[pdf\]]|[projects/misdet/misdet.html \[project page\]]|[https://github.com/assembly-101/assembly101-mistake-detection \[annots\]] 
+- *G. Ding*, _H. Golong_ and A. Yao, "Coherent Temporal Synthesis for Incremental Action Segmentation," /Computer Vision and Pattern Recognition/ 2024. [projects/itas/itas.html \[project page\]]|[papers/ding2024coherent.pdf \[pdf\]]|[https://www.youtube.com/watch?v=04mXlynNDqs \[video\]]|[papers/ding2024coherent_poster.pdf \[poster\]]|[papers/ding2024coherent_slides.pdf \[slides\]]
+- *G. Ding* and A. Yao, "Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation," /European Conference on Computer Vision/ 2022. [projects/semi/semi.html \[project page\]]| [papers/ding2022leveraging.pdf \[pdf\]]|[https://www.youtube.com/watch?v=DmELTZr91fE \[video\]]|[papers/ding2022leveraging_poster.pdf \[poster\]]
+- *G. Ding*, S. Khan, and Z. Tang, "Dispersion-based Clustering for Unsupervised Person Re-identiﬁcation," /British Machine Vision Conference/, 2019. [papers/ding2019dispersion.pdf \[pdf\]]|[projects/dbc/dbc.html \[project page\]]
+- *G. Ding\**, S. Zhang, S. Khan, and Z. Tang, "Center based Pseudo-labeling for Semi-supervised Person Re-identification," /International Conference of Multimedia and Expo Workshops/ 2018. [papers/ding2018center.pdf \[pdf\]]|[papers/ding2018center_slides.pdf \[slides\]]
 
 === Journal articles
 - *G. Ding*, F. Sener and A. Yao, "Temporal Action Segmentation: An Analysis of Modern Techniques," /IEEE Transactions on Pattern Analysis and Machine Intelligence/ 2023. [https://arxiv.org/pdf/2210.10352.pdf \[pdf\]]|[projects/tas/tas.html \[project page\]]|[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation \[resources\]]
@@ -66,28 +74,43 @@ My current research interest is mainly understanding human actions in long range
 - *G. Ding\**, S. Zhang, S. Khan, Z. Tang, J. Zhang and F. Porikli, "Feature Affinity based Pseudo Labeling for Semi-supervised Person Re-identification," /IEEE Transcations on Multimedia/ 2019.  [papers/ding2019a.pdf \[pdf\]]|[projects/fapl/fapl.html \[project page\]]
 - *G. Ding\**, S. Khan, Z. Tang, and F. Porikli, "Feature Mask Network for Person Re-identification," /Pattern Recognition Letters/ 2019. [papers/ding2019feature.pdf \[pdf\]]|[projects/fmn/fmn.html \[project page\]]
 
-=== Conference papers
-- *G. Ding*, F. Sener, S. Ma and A. Yao,  "Ordering Mistake Detection in Assembly Tasks," /CVPR Workshop/ 2024. [https://arxiv.org/pdf/2307.16453.pdf \[pdf\]]|[projects/misdet/misdet.html \[project page\]]|[https://github.com/assembly-101/assembly101-mistake-detection \[annots\]] 
-- *G. Ding*, _H. Golong_ and A. Yao, "Coherent Temporal Synthesis for Incremental Action Segmentation," /Computer Vision and Pattern Recognition/ 2024. [projects/itas/itas.html \[project page\]]|[papers/ding2024coherent.pdf \[pdf\]]|[https://www.youtube.com/watch?v=04mXlynNDqs \[video\]]|[papers/ding2024coherent_poster.pdf poster\]]|[papers/ding2024coherent_slides.pdf \[slides\]]
-- *G. Ding* and A. Yao, "Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation," /European Conference on Computer Vision/ 2022. [projects/semi/semi.html \[project page\]]| [papers/ding2022leveraging.pdf \[pdf\]]|[https://www.youtube.com/watch?v=DmELTZr91fE \[video\]]|[papers/ding2022leveraging_poster.pdf \[poster\]]|
-- *G. Ding*, S. Khan, and Z. Tang, "Dispersion-based Clustering for Unsupervised Person Re-identiﬁcation," /British Machine Vision Conference/, 2019. [papers/ding2019dispersion.pdf \[pdf\]]|[projects/dbc/dbc.html \[project page\]]
-- *G. Ding\**, S. Zhang, S. Khan, and Z. Tang, "Center based Pseudo-labeling for Semi-supervised Person Re-identification," /International Conference of Multimedia and Expo Workshops/ 2018. [papers/ding2018center.pdf \[pdf\]]|[papers/ding2018center_slides.pdf \[slides\]]
+=== Preprints
+- *G. Ding\**, S. Khan, Z. Tang, J. Zhang and F. Porikli, Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification, /Arxiv paper/ 2019.  [https://arxiv.org/pdf/1906.01308.pdf \[pdf\]]|[https://github.com/gddingcs/Dispersion-based-Clustering \[code\]]|[projects/dbc/dbc.html \[project page\]]
 
-(*\**: corresponding author, /_underlined_/: supervised student)\n
+
+
 
 == Reviewer
 === Journal:
-TPAMI, TMM, TIP, TOSN, TII \n
+IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)\n
+IEEE Transactions on Multimedia (TMM)\n
+IEEE Transactions on Image Processing (TIP)\n
+IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)\n
+ACM Transactions on Sensor Networks (TOSN)\n
+IEEE Transactions on Industrial Informatics (TII)\n
+
+
 === Conference:
-CVPR, ECCV, ICCV, NeurIPS, AAAI, BMVC, ICME\n
-Organizer of [https://nus-cvml.github.io/atlas-eccv22/ ATLAS] Tutorial on understanding actions in long untrimmed videos in conjunction with ECCV2022.
+IEEE\/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2021 - 2024)\n
+European Conference on Computer Vision (ECCV) (2020, 2022, 2024)\n
+IEEE\/CVF International Conference on Computer Vision (ICCV) (2021, 2023)\n
+Advances in Neural Information Processing Systems (NeurIPS) (2023 - 2024)\n
+AAAI Conference on Artificial Intelligence (AAAI) (2023 - 2024) \n
+British Machine Vision Conference (BMVC) (2020 - 2024) \n
+
+
+== Service
+Area Chair (SPC), AAAI 2024.\n
+Tutorial ([https://nus-cvml.github.io/atlas-eccv22/ ATLAS]) Organizer , ECCV 2022.\n`
+
 
 == Collaborators
 Prof. [https://www.comp.nus.edu.sg/~ayao/ Angela Yao], School of Computing, National University of Singapore\n
-Prof. [https://salman-h-khan.github.io/ Salman Khan], MBZUAI\n
+Dr. [https://scholar.google.com/citations?user=-juoweoAAAAJ&hl=en Fadime Sener], Reality Labs Research, Meta\n
+Prof. [https://salman-h-khan.github.io/ Salman Khan], MBZUAI \& Australian National University\n
 Prof. [https://www.uts.edu.au/staff/jian.zhang Jian Zhang], University of Technology Sydney\n
 Prof. [http://www.porikli.com/ Fatih Porikli], Qualcomm, USA\n 
-Prof. [https://sites.google.com/site/shanshanzhangshomepage/ Shanshan Zhang], Nanjing University of Science and Technology\n
+Prof. [https://shanshanzhang.github.io/ Shanshan Zhang], Nanjing University of Science and Technology\n
 
 == 
 #includeraw{logo.html}
