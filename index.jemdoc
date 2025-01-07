@@ -18,13 +18,15 @@ dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
 ~~~
 
 == Research Interest
-My current research interest is mainly understanding human actions in long range video sequences, /i.e./, _Temporal Action Segmentation_. I am also interested in learning with weaker forms of data supervisions such as, _weakly-supervised_ and _semi-supervised_ learning.
+My research focuses on understanding human actions in long-range, multi-step video sequences, particularly temporal action segmentation. Recently, my work has expanded to explore efficient understanding of procedural videos in continual and online settings.
 
 == Updates
-- /\[Sep., 24\]/ One conference paper accepted to NeurIPS 2024, congrats to Qing!
-- /\[Jun., 24\]/ I will be serving as Senior Program Committee for AAAI 2024.
-- /\[Apr., 24\]/ One extended abstract accepted to CVPR2024 Workshop LPVL2024.
-- /\[Feb., 24\]/ One conference paper accepted to CVPR2024.
+- /\[Jan., 25\]/ We will be organizing /Workshop on vision-based assistant in real-world/ at CVPR 2025.
+- /\[Oct., 24\]/ I gave a talk on /Unraveling Actions in Procedural Videos/ at NUS Lunch Meida Talk.
+- /\[Sep., 24\]/ One conference paper on online action segmentation accepted to NeurIPS 2024, congrats to Qing!
+- /\[Jun., 24\]/ I serve as Senior Program Committee for AAAI 2024.
+- /\[Apr., 24\]/ One extended abstract on detecting procedural mistakes accepted to CVPR2024 Workshop LPVL2024.
+- /\[Feb., 24\]/ One conference paper on incremental action segmenation accepted to CVPR2024.
 - /\[Oct., 23\]/ One survey paper accpeted to TPAMI.
 - /\[Dec., 22\]/ One journal paper accpetd to TMM.
 
