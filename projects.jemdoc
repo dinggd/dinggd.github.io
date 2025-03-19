@@ -6,6 +6,14 @@
 
 
 == Action Understanding 
+
+=== 2025
+~~~
+{}{img_left}{./projects/cas/cas.jpg}{}{280px}{}{}
+===  [projects/cas/cas.html Condensing Action Segmentation Datasets via Generative Network Inversion]
+We propose the first condensation approach for procedural video datasets in temporal action segmentation. Using generative priors, network inversion, and diverse sampling, our method reduces storage by 500× on the Breakfast dataset while retaining 83% of full-data performance. It also outperforms state-of-the-art methods in incremental learning.
+~~~
+
 === 2024
 ~~~
 {}{img_left}{./projects/online/archi.png}{}{280px}{}{}

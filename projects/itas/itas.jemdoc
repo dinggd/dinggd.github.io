@@ -20,9 +20,11 @@ This paper presents the first exploration of video data replay techniques for in
 == Resources
 Files: \[[../../papers/ding2024coherent.pdf pdf]\]
 
+Supp: \[[../../papers/ding2024coherent_supp.pdf pdf]\]
+
 Citation:
 ~~~
-@inpr{ding2024coherent,\n
+@inproceedings{ding2024coherent,\n
   title={Coherent Temporal Synthesis for Incremental Action Segmentation},\n
   author={Ding, Guodong and Golong, Hans and Yao, Angela},\n
   booktitle={Computer Vision and Pattern Recognition},\n

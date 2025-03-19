@@ -9,8 +9,19 @@
 <i class="fa fa-fw fa-graduation-cap"></i> Google Scholar</a>}}\n
 (*\**: corresponding author, /_underlined_/: supervised student)
 
+== 2025
+- *G. Ding*, R. Chen and A. Yao, \n "Condensing Action Segmentation Datasets via Generative Network Conversion,"\n
+/Computer Vision and Pattern Recognition/, *(CVPR)*, Nashville, US, 2025. \n
+[projects/cas/cas.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] |  
+[papers/ding2025condensing.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] 
+
+- *G. Ding*, F. Sener, S. Ma and A. Yao, \n "Spatial and Temporal Beliefs for Mistake Detection in Assembly Tasks,"\n
+/Computer Vision and Image Understanding/, *(CVIU)*, Elsevier, 2025.\n
+[projects/misdet/misdet.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] |  
+[papers/ding2025condensing.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] 
+
 == 2024
-- _Q. Zhong_, *G. Ding* and Angela Yao, \n "OnlineTAS: An Online Baseline for Temporal Action Segmentation," \n 
+- _Q. Zhong_, *G. Ding* and A. Yao, \n "OnlineTAS: An Online Baseline for Temporal Action Segmentation," \n 
 /Neural Information Processing Systems/, *(NeurIPS)*, Vancouver, Canada, 2024. \n 
 [projects/online/online.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] |  
 [papers/zhong2024online.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] 
@@ -27,6 +38,7 @@
 [projects/itas/itas.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] |  
 [papers/ding2024coherent.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] | 
 [https://www.youtube.com/watch?v=04mXlynNDqs {{<i class="fa fa-file-movie-o" aria-hidden="true"> video</i>}}] | 
+[papers/ding2024coherent_supp.pdf {{<i class="fa fa-file-photo-o" aria-hidden="true"> supp</i>}}] | 
 [papers/ding2024coherent_poster.pdf {{<i class="fa fa-file-photo-o" aria-hidden="true"> poster</i>}}] | 
 [papers/ding2024coherent_slides.pdf {{<i class="fa fa fa-file-powerpoint-o" aria-hidden="true"> slides</i>}}]
 
