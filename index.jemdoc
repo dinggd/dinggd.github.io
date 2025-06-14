@@ -21,10 +21,10 @@ dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
 My research focuses on understanding human actions in long-range, multi-step video sequences, particularly temporal action segmentation. Recently, my work has expanded to explore efficient understanding of procedural videos in continual and online settings.
 == Updates
 - /\[Feb., 25\]/ One conference paper on condensing action segmentation datasets accepted to CVPR2025.
-- /\[Jan., 25\]/ We will be organizing /Workshop on vision-based assistant in real-world/ at CVPR 2025.
+- /\[Jan., 25\]/ We will be organizing /Workshop on vision-based assistant in real-world/ at CVPR2025.
 - /\[Oct., 24\]/ I gave a talk on /Unraveling Actions in Procedural Videos/ at NUS Lunch Meida Talk.
-- /\[Sep., 24\]/ One conference paper on online action segmentation accepted to NeurIPS 2024, congrats to Qing!
-- /\[Jun., 24\]/ I serve as Senior Program Committee for AAAI 2024.
+- /\[Sep., 24\]/ One conference paper on online action segmentation accepted to NeurIPS2024, congrats to Qing!
+- /\[Jun., 24\]/ I serve as Senior Program Committee for AAAI2024.
 - /\[Apr., 24\]/ One extended abstract on detecting procedural mistakes accepted to CVPR2024 Workshop LPVL2024.
 - /\[Feb., 24\]/ One conference paper on incremental action segmenation accepted to CVPR2024.
 - /\[Jan., 24\]/ One survey paper accpeted to TPAMI.
@@ -63,7 +63,7 @@ My research focuses on understanding human actions in long-range, multi-step vid
 [https://scholar.google.com/citations?hl=en&user=PqlGbTYAAAAJ \[Google Scholar\]] (*\**: corresponding author, /_underlined_/: supervised student)\
 
 === Conference papers
-- *G. Ding*, R. Chen and A. Yao, "Condensing Action Segmentation Datasets via Generative Network Inversion,"  /Computer Vision and Pattern Recognition/ 2025. [papers/ding2025condensing.pdf \[pdf\]]|[projects/cas/cas.html \[project page\]]
+- *G. Ding*, R. Chen and A. Yao, "Condensing Action Segmentation Datasets via Generative Network Inversion,"  /Computer Vision and Pattern Recognition/ 2025. [papers/ding2025condensing.pdf \[pdf\]]|[projects/cas/cas.html \[project page\]]|[papers/ding2025condensing_poster.pdf \[poster\]]
 - _Q. Zhong_, *G. Ding*, and A. Yao, "OnlineTAS: An Online Baseline for Temporal Action Segmentation," /Conference on Neural Information Processing Systems/ 2024. [papers/zhong2024online.pdf \[pdf\]]|[projects/online/online.html \[project page\]]
 - *G. Ding*, F. Sener, S. Ma and A. Yao,  "Ordering Mistake Detection in Assembly Tasks," /CVPR Workshop/ 2024. [https://arxiv.org/pdf/2307.16453.pdf \[pdf\]]|[projects/misdet/misdet.html \[project page\]]|[https://github.com/assembly-101/assembly101-mistake-detection \[annots\]] 
 - *G. Ding*, _H. Golong_ and A. Yao, "Coherent Temporal Synthesis for Incremental Action Segmentation," /Computer Vision and Pattern Recognition/ 2024. [projects/itas/itas.html \[project page\]]|[papers/ding2024coherent.pdf \[pdf\]]|[https://www.youtube.com/watch?v=04mXlynNDqs \[video\]]|[papers/ding2024coherent_supp.pdf \[supp\]]|[papers/ding2024coherent_poster.pdf \[poster\]]|[papers/ding2024coherent_slides.pdf \[slides\]]

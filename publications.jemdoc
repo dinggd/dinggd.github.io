@@ -10,10 +10,16 @@
 (*\**: corresponding author, /_underlined_/: supervised student)
 
 == 2025
+- _Q. Zhong_, P. Jiang, W. Wang, *G. Ding*, Lin  Wu and K. Huang, \n "A Temporal Modeling Framework for Video Pre-Training on Video Instance Segmentation,"\n
+/International Conference on Multimedia and Expo/, *(ICME)*, Nantes, France, 2025. \n
+
 - *G. Ding*, R. Chen and A. Yao, \n "Condensing Action Segmentation Datasets via Generative Network Conversion,"\n
 /Computer Vision and Pattern Recognition/, *(CVPR)*, Nashville, US, 2025. \n
 [projects/cas/cas.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] |  
-[papers/ding2025condensing.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] 
+[papers/ding2025condensing.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] | 
+[papers/ding2025condensing_poster.pdf {{<i class="fa fa-file-photo-o" aria-hidden="true"> poster</i>}}]
+
+
 
 - *G. Ding*, F. Sener, S. Ma and A. Yao, \n "Spatial and Temporal Beliefs for Mistake Detection in Assembly Tasks,"\n
 /Computer Vision and Image Understanding/, *(CVIU)*, Elsevier, 2025.\n
