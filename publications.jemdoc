@@ -57,7 +57,7 @@
 [https://github.com/atlas-eccv22/awesome-temporal-action-segmentation {{<i class="fa fa-file-code-o" aria-hidden="true"> code</i>}}]
 
 
-== 2022
+== 2022 and before
 
 - *G. Ding* and A. Yao,  \n 
 "Temporal Action Segmentation with High-level Complex Activity Labels,"  \n
@@ -65,24 +65,20 @@
 [projects/cad/cad.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
 [https://arxiv.org/pdf/2108.06706.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] 
 
-
 #- Q. Yin, G. Wang, *G. Ding*, Q. Li, S. Gong and Z. Tang,  \n 
 #"Rapid Person Re-Identification via Sub-space Consistency Regularization," \n 
 #/Neural Processing Letters/, *(NPL)*, Springer, 2022.\n 
 #[projects/scr/scr.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
 #[https://arxiv.org/pdf/2207.05933.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}]
 
-
-- *G. Ding* and A. Yao,  \n "Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation,"  \n 
+- *G. Ding* and A. Yao,  \n 
+"Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation,"  \n 
 /European Conference on Computer Vision/, *(ECCV)*, Tel Aviv, Isreal, 2022. \n 
 [projects/semi/semi.html {{<i class="fa fa-grav" aria-hidden="true"> project page</i>}}] | 
 [papers/ding2022leveraging.pdf {{<i class="fa fa-file-pdf-o" aria-hidden="true"> pdf</i>}}] | 
 [https://www.youtube.com/watch?v=DmELTZr91fE {{<i class="fa fa-file-movie-o" aria-hidden="true"> video</i>}}] |
 [papers/ding2022leveraging_poster.pdf {{<i class="fa fa-file-photo-o" aria-hidden="true"> poster</i>}}] | 
 [papers/ding2022leveraging_slides.pdf {{<i class="fa fa fa-file-powerpoint-o" aria-hidden="true"> slides</i>}}]
-
-
-== 2021 and before
 
 #- Q. Yin, G. Wang, *G. Ding*, S. Gong and Z. Tang,  \n 
 #"Multi-View Label Prediction for Unsupervsied Person Re-identification,"  \n 

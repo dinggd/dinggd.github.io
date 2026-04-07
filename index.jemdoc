@@ -18,7 +18,7 @@ dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
 ~~~
 
 == Research Interest
-My research focuses on understanding human actions in long-range, multi-step video sequences, particularly temporal action segmentation. Recently, my work has expanded to explore efficient understanding of procedural videos in continual and online settings.
+My research develops AI systems for understanding, modeling, and reasoning over complex human activities in long-horizon video, with a focus on procedural and multi-step tasks under realistic constraints: limited supervision, streaming data, and evolving environments. 
 == Updates
 - /\[Feb., 25\]/ One conference paper on condensing action segmentation datasets accepted to CVPR2025.
 - /\[Jan., 25\]/ We will be organizing /Workshop on vision-based assistant in real-world/ at CVPR2025.
@@ -53,16 +53,19 @@ My research focuses on understanding human actions in long-range, multi-step vid
 #Thesis: /Content based Commodity Image Retrieval/
 
 == Adivsed Students
+- Artheme Gauthier Villars (2025 - 2026, Master, ETH)
+- Huaian Lin (2025 - 2026, Master, National University of Singapore )
 - Hang Guo (2025, Master, Tsinghua Univeristy)
 - Alberto Mate (2024, Master, Universitat Politècnica de Catalunya)
-- Qing Zhong (2024, PhD, University of Adelaide)
-- Hans Golong (2023 - 2024, Master, National University of Singapore)
+- Qing Zhong (2024, PhD, University of Adelaide, now postdoc at Univeristy of Hong Kong)
+- Hans Golong (2023 - 2024, Master, National University of Singapore, now Senior Research Engineer at A*STAR)
 
 
 == Publications
 [https://scholar.google.com/citations?hl=en&user=PqlGbTYAAAAJ \[Google Scholar\]] (*\**: corresponding author, /_underlined_/: supervised student)\
 
 === Conference papers
+- G Li, R Chen, B Li, L Yang and *G Ding*, "MedFact-R1: Towards Factual Medical Reasoning via Pseudo-Label Augmentation" /IEEE International Conference on Acoustics, Speech and Signal Processing/, 2026.
 - *G. Ding*, R. Chen and A. Yao, "Condensing Action Segmentation Datasets via Generative Network Inversion,"  /Computer Vision and Pattern Recognition/ 2025. [papers/ding2025condensing.pdf \[pdf\]]|[projects/cas/cas.html \[project page\]]|[papers/ding2025condensing_poster.pdf \[poster\]]
 - _Q. Zhong_, *G. Ding*, and A. Yao, "OnlineTAS: An Online Baseline for Temporal Action Segmentation," /Conference on Neural Information Processing Systems/ 2024. [papers/zhong2024online.pdf \[pdf\]]|[projects/online/online.html \[project page\]]
 - *G. Ding*, F. Sener, S. Ma and A. Yao,  "Ordering Mistake Detection in Assembly Tasks," /CVPR Workshop/ 2024. [https://arxiv.org/pdf/2307.16453.pdf \[pdf\]]|[projects/misdet/misdet.html \[project page\]]|[https://github.com/assembly-101/assembly101-mistake-detection \[annots\]] 
@@ -72,6 +75,7 @@ My research focuses on understanding human actions in long-range, multi-step vid
 - *G. Ding\**, S. Zhang, S. Khan, and Z. Tang, "Center based Pseudo-labeling for Semi-supervised Person Re-identification," /International Conference of Multimedia and Expo Workshops/ 2018. [papers/ding2018center.pdf \[pdf\]]|[papers/ding2018center_slides.pdf \[slides\]]
 
 === Journal articles
+- *G Ding*, F Sener, S Ma, A Yao, "Spatial and temporal beliefs for mistake detection in assembly tasks," / Computer Vision and Image Understanding/ 2025.
 - *G. Ding*, F. Sener and A. Yao, "Temporal Action Segmentation: An Analysis of Modern Techniques," /IEEE Transactions on Pattern Analysis and Machine Intelligence/ 2023. [https://arxiv.org/pdf/2210.10352.pdf \[pdf\]]|[projects/tas/tas.html \[project page\]]|[https://github.com/atlas-eccv22/awesome-temporal-action-segmentation \[resources\]]
 - *G. Ding* and A. Yao, "Temporal Action Segmentation with High-level Complex Activity Labels," /IEEE Transcations on Multimedia/ 2022.  [https://arxiv.org/pdf/2108.06706.pdf \[pdf\]]|[projects/cad/cad.html \[project page\]]
 - Q. Yin, G. Wang, *G. Ding*, Q. Li, S. Gong and Z. Tang, "Rapid Person Re-Identification via Sub-space Consistency Regularization," /Neural Processing Letters/ 2022. [https://arxiv.org/pdf/2207.05933.pdf \[pdf\]]|[projects/scr/scr.html \[project page\]]
@@ -96,16 +100,16 @@ IEEE Transactions on Industrial Informatics (TII)\n
 
 
 === Conference:
-IEEE\/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2021 - 2024)\n
+IEEE\/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2021 - )\n
 European Conference on Computer Vision (ECCV) (2020, 2022, 2024)\n
-IEEE\/CVF International Conference on Computer Vision (ICCV) (2021, 2023)\n
-Advances in Neural Information Processing Systems (NeurIPS) (2023 - 2024)\n
-AAAI Conference on Artificial Intelligence (AAAI) (2023 - 2024) \n
-British Machine Vision Conference (BMVC) (2020 - 2024) \n
+IEEE\/CVF International Conference on Computer Vision (ICCV) (2021, 2023, 2025)\n
+Advances in Neural Information Processing Systems (NeurIPS) (2023 - )\n
+AAAI Conference on Artificial Intelligence (AAAI) (2023 - ) \n
+British Machine Vision Conference (BMVC) (2020 -) \n
 
 
 == Service
-Workshop ([https://varworkshop.github.io/ VAR]) Oragnizer, CVPR 2025.\n
+Workshop ([https://varworkshop.github.io/ VAR]) Oragnizer, CVPR 2025, 2026.\n
 Area Chair (SPC), AAAI 2025.\n
 Tutorial ([https://nus-cvml.github.io/atlas-eccv22/ ATLAS]) Organizer, ECCV 2022.\n
 
