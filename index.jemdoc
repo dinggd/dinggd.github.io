@@ -20,6 +20,9 @@ dinggd /\[at/\] comp.nus.edu /\[dot/\] sg\n
 == Research Interest
 My research develops AI systems for understanding, modeling, and reasoning over complex human activities in long-horizon video, with a focus on procedural and multi-step tasks under realistic constraints: limited supervision, streaming data, and evolving environments. 
 == Updates
+- /\[Jun., 26\]/ I gave a keynote at [https://sauafg-workshop.github.io/ SAUAFG workshop] @ CVPR 2026. 
+- /\[Mar., 26\]/ One conference paper on lightweight audio-visual segementation accepted to ICML2026.
+- /\[Jan., 26\]/ We will be organizing /Workshop on vision-based assistant in real-world/ at CVPR2026.
 - /\[Feb., 25\]/ One conference paper on condensing action segmentation datasets accepted to CVPR2025.
 - /\[Jan., 25\]/ We will be organizing /Workshop on vision-based assistant in real-world/ at CVPR2025.
 - /\[Oct., 24\]/ I gave a talk on /Unraveling Actions in Procedural Videos/ at NUS Lunch Meida Talk.
@@ -65,6 +68,7 @@ My research develops AI systems for understanding, modeling, and reasoning over 
 [https://scholar.google.com/citations?hl=en&user=PqlGbTYAAAAJ \[Google Scholar\]] (*\**: corresponding author, /_underlined_/: supervised student)\
 
 === Conference papers
+- Q. Zhong, *G. Ding*, L. Liu, Z. Feng, L. Wu and A. Yao, "LightAVSeg: Lightweight Audio-Visual Segmentation", /IEEE International Conference on Machine Learning/, 2026.
 - G Li, R Chen, B Li, L Yang and *G Ding*, "MedFact-R1: Towards Factual Medical Reasoning via Pseudo-Label Augmentation" /IEEE International Conference on Acoustics, Speech and Signal Processing/, 2026.
 - *G. Ding*, R. Chen and A. Yao, "Condensing Action Segmentation Datasets via Generative Network Inversion,"  /Computer Vision and Pattern Recognition/ 2025. [papers/ding2025condensing.pdf \[pdf\]]|[projects/cas/cas.html \[project page\]]|[papers/ding2025condensing_poster.pdf \[poster\]]
 - _Q. Zhong_, *G. Ding*, and A. Yao, "OnlineTAS: An Online Baseline for Temporal Action Segmentation," /Conference on Neural Information Processing Systems/ 2024. [papers/zhong2024online.pdf \[pdf\]]|[projects/online/online.html \[project page\]]
@@ -87,7 +91,8 @@ My research develops AI systems for understanding, modeling, and reasoning over 
 - *G. Ding\**, S. Khan, Z. Tang, J. Zhang and F. Porikli, Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification, /Arxiv paper/ 2019.  [https://arxiv.org/pdf/1906.01308.pdf \[pdf\]]|[https://github.com/gddingcs/Dispersion-based-Clustering \[code\]]|[projects/dbc/dbc.html \[project page\]]
 
 == Talks
-- "Unraveling Actions in Procedural Activities", Media Talk at NUS.
+- 10\/20\/2024, "Unraveling Actions in Procedural Activities", Media Talk at NUS.
+- 06\/04\/2026, "From Action Segmentation to Skill Understanding", Keynote at SAUAFG workshop, CVPR 2026 [talks/SAUAFG2026.pdf \[slides\]].
 
 == Reviewer
 === Journal:
