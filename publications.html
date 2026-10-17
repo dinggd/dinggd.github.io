@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publications — Guodong Ding</title>
+<meta name="description" content="Guodong Ding is a Senior Research Fellow at the School of Computing, National University of Singapore, working on procedural activity understanding and temporal action segmentation in long-horizon video.">
+<meta name="author" content="Guodong Ding">
+<link rel="canonical" href="https://guodongding.cn/publications.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f4e8c'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia,serif' font-size='18' fill='white'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PLS8YDPZK4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PLS8YDPZK4');
+</script>
+
+<style>
+:root {
+  --bg: #ffffff;
+  --bg-side: #f5f7fa;
+  --ink: #1c2430;
+  --muted: #5b6572;
+  --faint: #8a94a1;
+  --rule: #dde2e8;
+  --accent: #1f4e8c;
+  --accent-soft: #e8eef7;
+  --pill: #eef1f5;
+  --serif: "IBM Plex Serif", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14181e;
+    --bg-side: #1a1f27;
+    --ink: #e6e9ed;
+    --muted: #a6afbb;
+    --faint: #76808c;
+    --rule: #2c333d;
+    --accent: #8db4e8;
+    --accent-soft: #1e2a3a;
+    --pill: #232a34;
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; margin: 0; }
+p { margin: 0 0 1em; }
+img { max-width: 100%; height: auto; }
+
+/* ---------- Layout ---------- */
+.page {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  min-height: 100vh;
+}
+.side {
+  background: var(--bg-side);
+  border-right: 1px solid var(--rule);
+  padding: 2.5rem 2rem;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+.main {
+  padding: 3rem 4rem 4rem;
+  max-width: 880px;
+}
+@media (max-width: 900px) {
+  .page { grid-template-columns: 1fr; }
+  .side { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--rule); padding: 2rem 1.5rem; }
+  .main { padding: 2rem 1.5rem 3rem; }
+}
+
+/* ---------- Sidebar ---------- */
+.avatar {
+  width: 128px; height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--rule);
+}
+.name { font-size: 1.6rem; letter-spacing: -0.01em; }
+.name-cn { font-family: var(--serif); font-weight: 500; color: var(--muted); font-size: 1.05rem; margin-top: 0.15rem; }
+.role { margin: 0.9rem 0 0; color: var(--muted); font-size: 0.95rem; line-height: 1.45; }
+.role strong { color: var(--ink); font-weight: 500; }
+.contact { list-style: none; padding: 0; margin: 1.25rem 0 0; font-size: 0.92rem; color: var(--muted); }
+.contact li { margin: 0.3rem 0; display: flex; gap: 0.55rem; align-items: baseline; }
+.contact svg { width: 14px; height: 14px; flex: none; position: relative; top: 1px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; opacity: .75; }
+.links { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 1.25rem; }
+.links a {
+  font-size: 0.85rem; font-weight: 500;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--ink);
+}
+.links a:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.links a.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.links a.primary:hover { color: #fff; opacity: .92; }
+
+nav.toc { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+nav.toc a {
+  display: block; padding: 0.2rem 0; font-size: 0.92rem; color: var(--muted);
+}
+nav.toc a:hover { color: var(--accent); text-decoration: none; }
+@media (max-width: 900px) {
+  nav.toc { display: flex; flex-wrap: wrap; gap: 0.2rem 1.1rem; }
+  .side { display: grid; grid-template-columns: auto 1fr; column-gap: 1.5rem; align-items: start; }
+  .avatar { width: 96px; height: 96px; margin: 0; grid-row: 1 / span 2; }
+  .side > nav, .side > .links, .side > .contact, .side > .role { grid-column: 1 / -1; }
+  nav.toc { grid-column: 1 / -1; }
+}
+
+/* ---------- Main ---------- */
+section { margin-bottom: 3.25rem; }
+section h2 {
+  font-size: 1.35rem;
+  padding-bottom: 0.45rem;
+  margin-bottom: 1.1rem;
+  border-bottom: 1px solid var(--rule);
+}
+.lede { font-size: 1.08rem; line-height: 1.6; max-width: 62ch; }
+.lede-sub { color: var(--muted); max-width: 66ch; }
+
+/* News */
+.news { list-style: none; padding: 0; margin: 0; }
+.news li { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; padding: 0.45rem 0; border-bottom: 1px dashed var(--rule); }
+.news li:last-child { border-bottom: 0; }
+.news time { color: var(--faint); font-variant-numeric: tabular-nums; font-size: 0.92rem; padding-top: 1px; }
+.news-more { margin-top: 0.75rem; }
+.news-more summary { cursor: pointer; color: var(--muted); font-size: 0.92rem; }
+.news-more summary:hover { color: var(--accent); }
+
+/* Publications: year rail */
+.pubs { list-style: none; padding: 0; margin: 0; }
+.year { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; }
+.year + .year { margin-top: 0.5rem; }
+.year > .y {
+  font-family: var(--serif); font-weight: 600; font-size: 1.15rem; color: var(--faint);
+  padding-top: 0.9rem;
+  border-top: 2px solid var(--rule);
+}
+.year > ol { list-style: none; padding: 0; margin: 0; border-top: 2px solid var(--rule); }
+.pub { padding: 0.9rem 0; border-bottom: 1px solid var(--rule); }
+.pub:last-child { border-bottom: 0; }
+.pub .t { font-weight: 600; font-size: 1.02rem; color: var(--ink); }
+.pub .t a { color: inherit; }
+.pub .a { color: var(--muted); font-size: 0.95rem; margin-top: 0.15rem; }
+.pub .a b { font-weight: 600; color: var(--ink); }
+.pub .a u { text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 2px; }
+.pub .v { color: var(--muted); font-size: 0.92rem; margin-top: 0.15rem; }
+.pub .v em { font-style: italic; }
+.pub .v .venue { display: inline-block; font-weight: 600; font-style: normal; color: var(--accent); background: var(--accent-soft); padding: 0 0.45rem; border-radius: 4px; margin-right: 0.35rem; font-size: 0.82rem; line-height: 1.5; vertical-align: 1px; }
+.pub .r { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.5rem; }
+.pub .r a {
+  font-size: 0.8rem; padding: 0.1rem 0.55rem; border-radius: 4px;
+  background: var(--pill); color: var(--muted);
+}
+.pub .r a:hover { background: var(--accent-soft); color: var(--accent); text-decoration: none; }
+.legend { color: var(--faint); font-size: 0.88rem; margin: -0.5rem 0 1.25rem; }
+@media (max-width: 560px) {
+  .year, .news li { grid-template-columns: 1fr; gap: 0.25rem; }
+  .year > .y { border-top: 0; padding-top: 0.5rem; }
+  .year > ol { border-top: 1px solid var(--rule); }
+}
+
+/* Generic two-column rows (experience, students, talks, service) */
+.rows { list-style: none; padding: 0; margin: 0; }
+.rows li { display: grid; grid-template-columns: 11rem 1fr; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); }
+.rows li:last-child { border-bottom: 0; }
+.rows .k { color: var(--muted); font-size: 0.92rem; font-variant-numeric: tabular-nums; }
+.rows .d { color: var(--muted); }
+.rows strong { font-weight: 600; color: var(--ink); }
+@media (max-width: 560px) { .rows li { grid-template-columns: 1fr; gap: 0.1rem; } }
+
+h3.sub { font-family: var(--sans); font-weight: 600; font-size: 0.95rem; color: var(--muted); margin: 1.4rem 0 0.4rem; }
+h3.sub:first-of-type { margin-top: 0; }
+.plain { margin: 0; padding-left: 1.1rem; color: var(--muted); }
+.plain li { margin: 0.2rem 0; }
+.plain li strong { color: var(--ink); font-weight: 500; }
+
+/* Footer */
+footer { border-top: 1px solid var(--rule); margin-top: 1rem; padding-top: 1.5rem; color: var(--faint); font-size: 0.85rem; }
+.logos { display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; margin-bottom: 1rem; }
+.logos img { height: 34px; width: auto; opacity: .85; }
+@media (prefers-color-scheme: dark) { .logos img { filter: brightness(0.9) contrast(1.05); background: #fff; padding: 3px 6px; border-radius: 3px; } }
+
+/* Selected publications with thumbnails */
+.sel { list-style: none; padding: 0; margin: 0; }
+.sel li { display: grid; grid-template-columns: 150px 1fr; gap: 1.25rem; padding: 1rem 0; border-bottom: 1px solid var(--rule); align-items: start; }
+.sel li:last-child { border-bottom: 0; }
+.sel .thumb { width: 150px; height: 95px; object-fit: cover; border-radius: 4px; border: 1px solid var(--rule); background: var(--pill); display: block; }
+.sel .t { font-weight: 600; font-size: 1.02rem; }
+.sel .t a { color: inherit; }
+.sel .a { color: var(--muted); font-size: 0.95rem; margin-top: 0.15rem; }
+.sel .a b { font-weight: 600; color: var(--ink); }
+.sel .a u { text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 2px; }
+.sel .v { color: var(--muted); font-size: 0.92rem; margin-top: 0.15rem; }
+.sel .v .venue { display: inline-block; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 0 0.45rem; border-radius: 4px; margin-right: 0.35rem; font-size: 0.82rem; line-height: 1.5; vertical-align: 1px; }
+.sel .r { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.5rem; }
+.sel .r a { font-size: 0.8rem; padding: 0.1rem 0.55rem; border-radius: 4px; background: var(--pill); color: var(--muted); }
+.sel .r a:hover { background: var(--accent-soft); color: var(--accent); text-decoration: none; }
+.all-pubs { margin-top: 1.25rem; font-size: 0.95rem; }
+@media (max-width: 560px) { .sel li { grid-template-columns: 1fr; gap: 0.6rem; } .sel .thumb { width: 100%; height: auto; aspect-ratio: 16/10; } }
+nav.toc a.current { color: var(--ink); font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<aside class="side">
+  <img class="avatar" src="avatar.jpeg" alt="Portrait of Guodong Ding">
+  <h1 class="name">Guodong Ding</h1>
+  <div class="name-cn">丁国栋 · Ph.D.</div>
+
+  <p class="role">
+    <strong>Senior Research Fellow</strong><br>
+    School of Computing<br>
+    National University of Singapore
+  </p>
+
+  <ul class="contact">
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+      <a id="email" href="#" data-u="dinggd" data-d="comp.nus.edu.sg">dinggd [at] comp.nus.edu.sg</a>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+      <span>AS6-04-11, 11 Computing Drive<br>Singapore 117416</span>
+    </li>
+  </ul>
+
+  <div class="links">
+    <a class="primary" href="files/GUODONG_DING_CV.pdf">CV</a>
+    <a href="https://scholar.google.com/citations?user=PqlGbTYAAAAJ&hl=en">Google Scholar</a>
+  </div>
+
+  <nav class="toc" aria-label="Sections">
+    <a href="index.html">Home</a>
+    <a href="publications.html" class="current">All publications</a>
+  </nav>
+</aside>
+
+<main class="main">
+
+<section id="publications">
+  <h2>All publications</h2>
+  <p class="legend">* corresponding author &nbsp;·&nbsp; <u>underlined</u> supervised student &nbsp;·&nbsp; full list on <a href="https://scholar.google.com/citations?user=PqlGbTYAAAAJ&hl=en">Google Scholar</a></p>
+
+  <div class="pubs">
+
+  <div class="year"><div class="y">2026</div><ol>
+    <li class="pub">
+      <div class="t">Procedural Activity Understanding in Videos: An Execution-Centric View</div>
+      <div class="a"><b>G. Ding</b>, D. Chatterjee, Z. Pang, A. Kukleva, Y. Song, A. Yao, F. Sener</div>
+      <div class="v"><span class="venue">Preprint</span>Survey, 2026</div>
+      <div class="r"><a href="papers/ding2026pau.pdf">PDF</a><a href="https://github.com/dinggd/awesome-procedural-activity-understanding">Resources</a></div>
+    </li>
+    <li class="pub">
+      <div class="t"><a href="projects/alta/alta.html">Adaptive Latent Trajectory Anchoring for Action Segmentation Dataset Condensation</a></div>
+      <div class="a"><u>A. Gauthier-Villars</u>, <b>G. Ding*</b>, A. Yao</div>
+      <div class="v"><span class="venue">ECCV</span><em>European Conference on Computer Vision</em>, Malmö, 2026</div>
+      <div class="r"><a href="papers/gauthier-villars2026adaptive.pdf">PDF</a><a href="projects/alta/alta.html">Project page</a><a href="papers/gauthier-villars2026adaptive_poster.pdf">Poster</a><a href="papers/gauthier-villars2026adaptive_slides.pdf">Slides</a></div>
+    </li>
+    <li class="pub">
+      <div class="t">LightAVSeg: Lightweight Audio-Visual Segmentation</div>
+      <div class="a">Q. Zhong, <b>G. Ding*</b>, L. Liu, Z. Feng, L. Wu, A. Yao</div>
+      <div class="v"><span class="venue">ICML</span><em>International Conference on Machine Learning</em>, Seoul, 2026</div>
+    </li>
+    <li class="pub">
+      <div class="t">MedFact-R1: Towards Factual Medical Reasoning via Pseudo-Label Augmentation</div>
+      <div class="a">G. Li, R. Chen, B. Li, L. Yang, <b>G. Ding</b></div>
+      <div class="v"><span class="venue">ICASSP</span><em>IEEE International Conference on Acoustics, Speech and Signal Processing</em>, Barcelona, 2026</div>
+    </li>
+  </ol></div>
+
+  <div class="year"><div class="y">2025</div><ol>
+    <li class="pub">
+      <div class="t"><a href="projects/cas/cas.html">Condensing Action Segmentation Datasets via Generative Network Inversion</a></div>
+      <div class="a"><b>G. Ding</b>, R. Chen, A. Yao</div>
+      <div class="v"><span class="venue">CVPR</span><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition</em>, Nashville, 2025</div>
+      <div class="r"><a href="papers/ding2025condensing.pdf">PDF</a><a href="projects/cas/cas.html">Project page</a><a href="papers/ding2025condensing_poster.pdf">Poster</a></div>
+    </li>
+    <li class="pub">
+      <div class="t"><a href="projects/misdet/misdet.html">Spatial and Temporal Beliefs for Mistake Detection in Assembly Tasks</a></div>
+      <div class="a"><b>G. Ding</b>, F. Sener, S. Ma, A. Yao</div>
+      <div class="v"><span class="venue">CVIU</span><em>Computer Vision and Image Understanding</em>, 2025</div>
+      <div class="r"><a href="papers/ding2025spatial.pdf">PDF</a><a href="projects/misdet/misdet.html">Project page</a></div>
+    </li>
+    <li class="pub">
+      <div class="t">A Temporal Modeling Framework for Video Pre-Training on Video Instance Segmentation</div>
+      <div class="a"><u>Q. Zhong</u>, P. Jiang, W. Wang, <b>G. Ding</b>, L. Wu, K. Huang</div>
+      <div class="v"><span class="venue">ICME</span><em>IEEE International Conference on Multimedia and Expo</em>, Nantes, 2025</div>
+    </li>
+  </ol></div>
+
+  <div class="year"><div class="y">2024</div><ol>
+    <li class="pub">
+      <div class="t"><a href="projects/online/online.html">OnlineTAS: An Online Baseline for Temporal Action Segmentation</a></div>
+      <div class="a"><u>Q. Zhong</u>, <b>G. Ding</b>, A. Yao</div>
+      <div class="v"><span class="venue">NeurIPS</span><em>Conference on Neural Information Processing Systems</em>, Vancouver, 2024</div>
+      <div class="r"><a href="papers/zhong2024online.pdf">PDF</a><a href="projects/online/online.html">Project page</a></div>
+    </li>
+    <li class="pub">
+      <div class="t"><a href="projects/itas/itas.html">Coherent Temporal Synthesis for Incremental Action Segmentation</a></div>
+      <div class="a"><b>G. Ding</b>, <u>H. Golong</u>, A. Yao</div>
+      <div class="v"><span class="venue">CVPR</span><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition</em>, Seattle, 2024</div>
+      <div class="r"><a href="papers/ding2024coherent.pdf">PDF</a><a href="papers/ding2024coherent_supp.pdf">Supplement</a><a href="projects/itas/itas.html">Project page</a><a href="https://www.youtube.com/watch?v=04mXlynNDqs">Video</a><a href="papers/ding2024coherent_poster.pdf">Poster</a><a href="papers/ding2024coherent_slides.pdf">Slides</a></div>
+    </li>
+    <li class="pub">
+      <div class="t"><a href="projects/misdet/misdet.html">Ordering Mistake Detection in Assembly Tasks</a></div>
+      <div class="a"><b>G. Ding</b>, F. Sener, S. Ma, A. Yao</div>
+      <div class="v"><span class="venue">CVPRW</span><em>CVPR Workshop on Learning with Limited Labelled Data for Procedural Videos</em>, Seattle, 2024</div>
+      <div class="r"><a href="https://arxiv.org/pdf/2307.16453.pdf">PDF</a><a href="projects/misdet/misdet.html">Project page</a><a href="https://github.com/assembly-101/assembly101-mistake-detection">Annotations</a></div>
+    </li>
+  </ol></div>
+
+  <div class="year"><div class="y">2023</div><ol>
+    <li class="pub">
+      <div class="t"><a href="projects/tas/tas.html">Temporal Action Segmentation: An Analysis of Modern Techniques</a></div>
+      <div class="a"><b>G. Ding</b>, F. Sener, A. Yao</div>
+      <div class="v"><span class="venue">TPAMI</span><em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 2023</div>
+      <div class="r"><a href="https://arxiv.org/pdf/2210.10352.pdf">PDF</a><a href="projects/tas/tas.html">Project page</a><a href="https://github.com/nus-cvml/awesome-temporal-action-segmentation">Resources</a></div>
+    </li>
+  </ol></div>
+
+  <div class="year"><div class="y">2022</div><ol>
+    <li class="pub">
+      <div class="t"><a href="projects/semi/semi.html">Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation</a></div>
+      <div class="a"><b>G. Ding</b>, A. Yao</div>
+      <div class="v"><span class="venue">ECCV</span><em>European Conference on Computer Vision</em>, Tel Aviv, 2022</div>
+      <div class="r"><a href="papers/ding2022leveraging.pdf">PDF</a><a href="projects/semi/semi.html">Project page</a><a href="https://www.youtube.com/watch?v=DmELTZr91fE">Video</a><a href="papers/ding2022leveraging_poster.pdf">Poster</a><a href="papers/ding2022leveraging_slides.pdf">Slides</a></div>
+    </li>
+    <li class="pub">
+      <div class="t"><a href="projects/cad/cad.html">Temporal Action Segmentation with High-level Complex Activity Labels</a></div>
+      <div class="a"><b>G. Ding</b>, A. Yao</div>
+      <div class="v"><span class="venue">TMM</span><em>IEEE Transactions on Multimedia</em>, 2022</div>
+      <div class="r"><a href="https://arxiv.org/pdf/2108.06706.pdf">PDF</a><a href="projects/cad/cad.html">Project page</a></div>
+    </li>
+    <li class="pub">
+      <div class="t"><a href="projects/scr/scr.html">Rapid Person Re-Identification via Sub-space Consistency Regularization</a></div>
+      <div class="a">Q. Yin, G. Wang, <b>G. Ding</b>, Q. Li, S. Gong, Z. Tang</div>
+      <div class="v"><span class="venue">NPL</span><em>Neural Processing Letters</em>, 2022</div>
+      <div class="r"><a href="https://arxiv.org/pdf/2207.05933.pdf">PDF</a><a href="projects/scr/scr.html">Project page</a></div>
+    </li>
+  </ol></div>
+
+  <div class="year"><div class="y">2021</div><ol>
+    <li class="pub">
+      <div class="t"><a href="projects/mvreid/mvreid.html">Multi-View Label Prediction for Unsupervised Person Re-identification</a></div>
+      <div class="a">Q. Yin, G. Wang, <b>G. Ding</b>, S. Gong, Z. Tang</div>
+      <div class="v"><span class="venue">SPL</span><em>IEEE Signal Processing Letters</em>, 2021</div>
+      <div class="r"><a href="http://www.eecs.qmul.ac.uk/~sgg/papers/YinEtAl_SPL2021.pdf">PDF</a><a href="projects/mvreid/mvreid.html">Project page</a></div>
+    </li>
+  </ol></div>
+
+  <div class="year"><div class="y">2019</div><ol>
+    <li class="pub">
+      <div class="t"><a href="projects/dbc/dbc.html">Dispersion-based Clustering for Unsupervised Person Re-identification</a></div>
+      <div class="a"><b>G. Ding</b>, S. Khan, Z. Tang</div>
+      <div class="v"><span class="venue">BMVC</span><em>British Machine Vision Conference</em>, Cardiff, 2019</div>
+      <div class="r"><a href="papers/ding2019dispersion.pdf">PDF</a><a href="projects/dbc/dbc.html">Project page</a><a href="https://arxiv.org/pdf/1906.01308.pdf">Extended arXiv version</a><a href="https://github.com/gddingcs/Dispersion-based-Clustering">Code</a></div>
+    </li>
+    <li class="pub">
+      <div class="t"><a href="projects/fapl/fapl.html">Feature Affinity based Pseudo Labeling for Semi-supervised Person Re-identification</a></div>
+      <div class="a"><b>G. Ding*</b>, S. Zhang, S. Khan, Z. Tang, J. Zhang, F. Porikli</div>
+      <div class="v"><span class="venue">TMM</span><em>IEEE Transactions on Multimedia</em>, 2019</div>
+      <div class="r"><a href="papers/ding2019a.pdf">PDF</a><a href="projects/fapl/fapl.html">Project page</a></div>
+    </li>
+    <li class="pub">
+      <div class="t"><a href="projects/fmn/fmn.html">Feature Mask Network for Person Re-identification</a></div>
+      <div class="a"><b>G. Ding*</b>, S. Khan, Z. Tang, F. Porikli</div>
+      <div class="v"><span class="venue">PRL</span><em>Pattern Recognition Letters</em>, 2019</div>
+      <div class="r"><a href="papers/ding2019feature.pdf">PDF</a><a href="projects/fmn/fmn.html">Project page</a></div>
+    </li>
+  </ol></div>
+
+  <div class="year"><div class="y">2018</div><ol>
+    <li class="pub">
+      <div class="t">Center based Pseudo-labeling for Semi-supervised Person Re-identification</div>
+      <div class="a"><b>G. Ding*</b>, S. Zhang, S. Khan, Z. Tang</div>
+      <div class="v"><span class="venue">ICMEW</span><em>IEEE International Conference on Multimedia and Expo Workshops</em>, San Diego, 2018</div>
+      <div class="r"><a href="papers/ding2018center.pdf">PDF</a><a href="papers/ding2018center_slides.pdf">Slides</a></div>
+    </li>
+  </ol></div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="logos">
+    <img src="logos/nussoc.png" alt="NUS School of Computing">
+    <img src="logos/anu066.png" alt="Australian National University">
+    <img src="logos/polyu066.png" alt="Hong Kong Polytechnic University">
+    <img src="logos/njust066.png" alt="Nanjing University of Science and Technology">
+  </div>
+  <div>© <span id="yr">2026</span> Guodong Ding · Last updated October 2026</div>
+</footer>
+
+</main>
+</div>
+
+<script>
+  // Assemble the mailto link at runtime so the address is not in the raw HTML.
+  (function () {
+    var e = document.getElementById('email');
+    var addr = e.dataset.u + '@' + e.dataset.d;
+    e.href = 'mailto:' + addr;
+    e.textContent = addr;
+  })();
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
