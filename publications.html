@@ -74,6 +74,12 @@ img { max-width: 100%; height: auto; }
   display: grid;
   grid-template-columns: 300px minmax(0, 1fr);
   min-height: 100vh;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+@media (min-width: 1181px) {
+  .side { border-left: 1px solid var(--rule); }
+  .main { border-right: 1px solid var(--rule); }
 }
 .side {
   background: var(--bg-side);
@@ -86,7 +92,6 @@ img { max-width: 100%; height: auto; }
 }
 .main {
   padding: 3rem 4rem 4rem;
-  max-width: 880px;
 }
 @media (max-width: 900px) {
   .page { grid-template-columns: 1fr; }
